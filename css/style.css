@@ -1,0 +1,127 @@
+body {
+    background: #B4D8E3;
+    height: 411px;
+    width: 626px;
+    left: -344px;
+    top: -236px;
+    border-radius: 0px;
+    background-image: url('../img/725250.jpg');
+    background-size:cover;
+}
+
+.principal{
+    
+}
+
+h1{
+    font-size: 40px;
+    color: #0A3871;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.texto {
+    height: 249px;
+    width: 340px;
+    left: 27px;
+    top: 76px;
+    border-radius: 24px;
+    padding: 25px 10px 25px 10px;
+    background: rgba(0, 0, 0, 0.31);
+}
+
+#texto_area {
+    background: #0000004F;
+    width: 335px;
+    height: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    text-align: center;
+    border: transparent;
+    border-radius: 25px;
+}
+.resultado {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 225px;
+    height: 440px;
+    left: 385px;
+    top: 30px;
+    background: rgba(0, 0, 0, 0.31);
+    border-radius: 24px;
+}
+
+#texto_resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 205px;
+    height: 385px;
+    border: transparent;
+    border-radius: 25px;
+    color: #ffffff;
+    background: #0000004F;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.boton_e {
+    height: 30px;
+    width: 150px;
+    left: 352px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+
+}
+
+.boton_e:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+.boton_d {
+    height: 30px;
+    width: 150px;
+    right: 352px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+.boton_d:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+.boton_c {
+    height: 30px;
+    width: 150px;
+    right: 352px;
+    border-radius: 24px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid #0A3871;
+}
+.boton_c:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
