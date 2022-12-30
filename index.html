@@ -6,43 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<style>
-    .bg-personal {
-        background-image: url(../Encriptador_Challenge_ONE/img/725250.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .titulo {
-        font-style: italic;
-        text-decoration: underline;
-        color: #030231;
-        text-align: justify;
-    }
-
-    .texto {
-        background: #0000004F;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        color: #ffffff;
-        text-align: center;
-        border: transparent;
-        border-radius: 25px;
-    }
-</style>
 
 <body class="bg-personal">
 
     <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="#">
-            <h1 class="display-4 col-4">
+        <a class="navbar-brand col-4" href="#">
+            <h1 class="display-4">
                 <img src="img/0.1-removebg-preview.png" alt="Logo" style="width:50px; margin-left: 20px;">
-                <span class="titulo6" style="margin-top: 40px;">lura</span>
+                <span class="titulo" style="margin-top: 50px;">lura</span>
             </h1>
         </a>
 
@@ -54,7 +28,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col">
+            <div class="col-sm-6">
                 <div class="form-group">
                     <textarea class="form-control texto" rows="5" id="texto_area" style="height: 260px;"
                         placeholder="Ingrese el Texto aqui"></textarea>
@@ -66,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-sm-6">
                 <div class="form-group">
                     <textarea class="form-control texto" rows="5" id="texto_resultado" style="height: 260px;">
                     </textarea>

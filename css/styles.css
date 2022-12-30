@@ -1,0 +1,25 @@
+.bg-personal {
+    background-image: url(../img/725250.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    font-style: italic;
+    text-decoration: underline;
+    color: #030231;
+    text-align: center;
+}
+
+.texto {
+    background: #0000004F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    text-align: center;
+    border: transparent;
+    border-radius: 25px;
+}
